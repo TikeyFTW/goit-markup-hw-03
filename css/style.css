@@ -11,6 +11,11 @@ body {
   --ocean: #404bbf;
   --cornflower: #e7e9fc;
 }
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .logo-header {
   font-family: "raleway", sans-serif;
   text-decoration: none;
@@ -41,6 +46,10 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+menu,
+ul {
+  list-style: none;
 }
 .menu-item {
   font-size: 16px;
@@ -88,6 +97,11 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.section-one {
+  background-color: var(--navyblue);
+  width: 1440px;
+  flex-shrink: 0;
+}
 h1 {
   font-size: 56px;
   line-height: 1.07143;
@@ -95,6 +109,7 @@ h1 {
   text-align: center;
   color: var(--white);
   background-color: var(--navyblue);
+  padding: 188px 472px 48px 472px;
 }
 .order-service-button {
   font-size: 16px;
@@ -107,7 +122,11 @@ h1 {
   border-radius: 4px;
   border-color: var(--iris);
   font-family: inherit;
+  padding: 16px 32px 16px 32px;
+  margin-left: 636px;
+  margin-bottom: 188px;
 }
+
 .order-service-button:hover,
 .order-service-button:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -130,6 +149,9 @@ h2 {
   line-height: 1.111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.section-three {
+  background-color: var(--cloud);
 }
 .name {
   text-align: center;
