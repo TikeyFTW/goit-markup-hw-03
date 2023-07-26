@@ -11,11 +11,6 @@ body {
   --ocean: #404bbf;
   --cornflower: #e7e9fc;
 }
-.container {
-  width: 1128px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .logo-header {
   font-family: "raleway", sans-serif;
   text-decoration: none;
@@ -38,6 +33,7 @@ body {
 .logo-link {
   color: var(--iris);
 }
+
 footer {
   background-color: Var(--navyblue);
   color: var(--cloud);
@@ -46,6 +42,8 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  width: 264px;
+  text-align: justify;
 }
 menu,
 ul {
@@ -206,4 +204,11 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  display: inline;
+}
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 2px dashed #2a2a2a;
 }
