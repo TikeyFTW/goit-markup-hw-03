@@ -236,6 +236,10 @@ h2 {
 .team figure {
   margin: 0;
 }
-.header menu {
+header .container,
+header .container nav ul,
+header menu,
+header .logo-header,
+header .container ul {
   display: flex;
 }
