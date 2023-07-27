@@ -136,7 +136,7 @@ h1 {
   border-radius: 4px;
   border-color: var(--iris);
   font-family: inherit;
-  padding: 16px 32px 16px 32px;
+  padding: 16x 32px 16px 32px;
   margin-left: 636px;
   margin-bottom: 188px;
 }
@@ -236,10 +236,18 @@ h2 {
 .team figure {
   margin: 0;
 }
-header .container,
-header .container nav ul,
-header menu,
-header .logo-header,
-header .container ul {
+.header-wrapper {
   display: flex;
+  justify-content: space-between;
+}
+
+.header-wrapper > nav {
+  display: flex;
+  gap: 2em;
+}
+
+.header-wrapper > nav > menu {
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
 }
