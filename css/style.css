@@ -48,7 +48,7 @@ footer {
   letter-spacing: 0.32px;
   width: 264px;
   margin-top: 17.5px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .logo-footer {
   font-family: "raleway", sans-serif;
@@ -60,7 +60,6 @@ footer {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
 menu,
 ul {
   list-style: none;
@@ -185,6 +184,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
 .project-description-buttons {
   color: var(--iris);
   text-align: center;
@@ -227,5 +227,12 @@ h2 {
   display: inline;
 }
 .product {
+  display: flex;
+}
+.team {
+  display: flex;
+  padding: 0;
+}
+.header {
   display: flex;
 }
