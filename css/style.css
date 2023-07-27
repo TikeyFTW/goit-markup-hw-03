@@ -233,6 +233,9 @@ h2 {
   display: flex;
   padding: 0;
 }
-.header {
+.team figure {
+  margin: 0;
+}
+.header menu {
   display: flex;
 }
