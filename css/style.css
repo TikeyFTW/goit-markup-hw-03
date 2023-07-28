@@ -42,7 +42,6 @@ body {
 footer {
   background-color: Var(--navyblue);
   color: var(--cloud);
-  width: 1440px;
   flex-shrink: 0;
   margin: 0 auto;
   padding-top: 101.5px;
@@ -119,9 +118,9 @@ ul {
 }
 .section-one {
   background-color: var(--navyblue);
-  width: 1440px;
   flex-shrink: 0;
   margin: 0 auto;
+  width: 1440px;
 }
 h1 {
   font-size: 56px;
@@ -132,6 +131,7 @@ h1 {
   background-color: var(--navyblue);
   padding: 188px 472px 48px 472px;
   margin-top: 0px;
+  margin-left: 0 auto;
 }
 .order-service-button {
   font-size: 16px;
@@ -211,6 +211,8 @@ h2 {
   border: 1px solid var(--cornflower);
   background: var(--cloud, #f4f4fd);
   font-family: inherit;
+  padding: 12px 24px;
+  margin-bottom: 72px;
 }
 .project-description-buttons:focus,
 .project-description-buttons:hover {
@@ -231,6 +233,7 @@ h2 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .project-description {
   color: var(--slate);
@@ -247,6 +250,7 @@ h2 {
 .team {
   display: flex;
   gap: 24px;
+  margin-top: 72px;
 }
 
 .header-wrapper {
@@ -256,7 +260,7 @@ h2 {
 
 .header-wrapper > nav {
   display: flex;
-  gap: 40px;
+  gap: 76px;
 }
 
 .header-wrapper > nav > menu {
@@ -290,4 +294,26 @@ h2 {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.project-description-box {
+  width: 360px;
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  background: var(--white);
+}
+.team-img,
+.project-img {
+  vertical-align: bottom;
+}
+.project-descriptions-menu {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
